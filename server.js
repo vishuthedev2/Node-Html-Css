@@ -6,6 +6,7 @@ import envConfig from "./src/config/envConfig.js";
 import userRoutes from "./src/routes/routes.js";
 import dbConnection from "./src/config/db.js";
 
+// port ans express initialize
 const app = express();
 const port = envConfig.PORT;
 
