@@ -19,6 +19,7 @@ app.use(cors({ origin: "*", methods: "GET, POST, PUT, DELETE" }));
 
 app.use("/", userRoutes);
 
+// Main start server function
 async function startServer() {
   try {
     app.listen(port, () => {
